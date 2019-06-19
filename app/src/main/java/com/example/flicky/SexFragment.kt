@@ -19,7 +19,7 @@ class SexFragment: BaseFragment(), CustomToolbar.CustomToolbarListener {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         customToolbar.setCustomListener(this)
-        val ttt ="fdsfsfd111"
+        val ttt ="fdsfsfdfdsfds1"
         btn_next.setOnClickListener({
             getRoot().pushFragment(EmailFragment(), true)
         })
